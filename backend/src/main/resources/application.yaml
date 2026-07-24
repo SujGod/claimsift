@@ -1,12 +1,15 @@
 spring:
   application:
-    name: backend
+    name: claimsift-backend
+
+server:
+  port: ${PORT:8080}
 
 gemini:
   base-url: https://generativelanguage.googleapis.com/v1beta
   api-key: ${GEMINI_API_KEY}
   api-key-header: x-goog-api-key
-  model: gemini-3.1-flash-lite
+  model: ${GEMINI_MODEL:gemini-3.1-flash-lite}
   model-content-path: /models/{model}:generateContent
   max-claims-per-chunk: 3
   max-output-tokens: 1200
@@ -25,3 +28,13 @@ claimsift:
     max-claims-per-video: 5
     max-google-queries-per-video: 5
     minimum-match-similarity: 0.25
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+
+  endpoint:
+    health:
+      show-details: never
