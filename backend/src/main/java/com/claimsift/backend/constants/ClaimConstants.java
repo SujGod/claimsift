@@ -7,50 +7,6 @@ public class ClaimConstants {
 
     private ClaimConstants() {}
 
-    public static final Set<String> SUBJECT_RELATIONS = Set.of(
-        "nsubj",
-        "nsubj:pass",
-        "csubj",
-        "csubj:pass"
-    );
-
-    public static final Set<String> USEFUL_ENTITY_TYPES = Set.of(
-        "PERSON",
-        "ORGANIZATION",
-        "LOCATION",
-        "CITY",
-        "STATE_OR_PROVINCE",
-        "COUNTRY",
-        "DATE",
-        "TIME",
-        "DURATION",
-        "MONEY",
-        "PERCENT",
-        "NUMBER",
-        "ORDINAL"
-    );
-
-    public static final Set<String> OPINION_LEMMAS = Set.of(
-        "think",
-        "believe",
-        "feel",
-        "prefer",
-        "hope",
-        "wish",
-        "love",
-        "hate"
-    );
-
-    public static final Set<String> HEDGE_LEMMAS = Set.of(
-        "maybe",
-        "perhaps",
-        "probably",
-        "possibly",
-        "apparently",
-        "seem",
-        "suggest"
-    );
-
     public static final Set<String> OPINION_PREFIXES = Set.of(
         "i think",
         "i believe",

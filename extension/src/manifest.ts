@@ -9,13 +9,20 @@ const manifest: ManifestV3Export = {
 
   permissions: ["storage"],
 
-  host_permissions: ["https://www.youtube.com/*", "http://localhost:8080/*"],
+  host_permissions: ["https://www.youtube.com/*", "http://localhost:8080/*", "https://claimsift-backend.onrender.com/*"],
 
   content_scripts: [
     {
       matches: ["https://www.youtube.com/*"],
       js: ["src/content/content-script.tsx"],
       run_at: "document_idle",
+    },
+  ],
+
+  web_accessible_resources: [
+    {
+      resources: ["images/claim-sift-logo.png"],
+      matches: ["https://www.youtube.com/*"],
     },
   ],
 };
