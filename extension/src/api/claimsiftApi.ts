@@ -11,7 +11,7 @@ export const claimsiftApi = createApi({
   reducerPath: "claimsiftApi",
 
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:8080/api/v1",
+    baseUrl: "https://claimsift-backend.onrender.com/api/v1",
   }),
 
   endpoints: (builder) => ({
