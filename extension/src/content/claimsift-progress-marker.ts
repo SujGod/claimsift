@@ -1,4 +1,4 @@
-import claimSiftLogo from "../assets/claimSiftLogo.png";
+import claimSiftProgressMarker from "../assets/progressMarker.png";
 import type { FactCheck } from "../types/fact-check";
 
 const MARKERS_CONTAINER_ID =
@@ -77,13 +77,10 @@ const createMarker = (
       videoDuration,
     )}%`;
 
-  const logo =
-    document.createElement("img");
+  const logo = document.createElement("img");
+  logo.className = "claimsift-progress-marker-logo";
 
-  logo.className =
-    "claimsift-progress-marker-logo";
-
-  logo.src = chrome.runtime.getURL(claimSiftLogo);
+  logo.src = chrome.runtime.getURL(claimSiftProgressMarker);
   logo.alt = "";
   logo.draggable = false;
 

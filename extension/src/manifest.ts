@@ -18,13 +18,6 @@ const manifest: ManifestV3Export = {
       run_at: "document_idle",
     },
   ],
-
-  web_accessible_resources: [
-    {
-      resources: ["images/claim-sift-logo.png"],
-      matches: ["https://www.youtube.com/*"],
-    },
-  ],
 };
 
 export default manifest;
