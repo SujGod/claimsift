@@ -15,6 +15,17 @@ ClaimSift processes the current YouTube video, identifies factual claims, and au
 
 ---
 
+### Activate Claim Sift 
+
+![Activate ClaimSift](docs/images/claimsift-activated.png)
+
+### Dectivate Claim Sift 
+
+![Deactive ClaimSift](docs/images/claimsift-deactivated.png)
+
+---
+
+
 ### Progress-bar fact-check markers
 
 <!-- Replace with a screenshot showing multiple ClaimSift markers above the YouTube timeline -->
