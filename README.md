@@ -86,8 +86,7 @@ Google Fact Check API
 TRUE / FALSE / INCONCLUSIVE
       ↓
 Timestamped overlay and progress markers
-
----
+```
 
 ## 🛠️ Active Development Checklist
 
