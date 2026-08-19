@@ -86,3 +86,14 @@ Google Fact Check API
 TRUE / FALSE / INCONCLUSIVE
       ↓
 Timestamped overlay and progress markers
+
+---
+
+## 🛠️ Active Development Checklist
+
+I am currently working on the following features and improvements for the next update. You can track my immediate progress below:
+
+- [ ] Creating loading indicator during claim extraction
+- [ ] Creating Postgres database tables/schema for handling video facts
+- [ ] Integrating either Secret Key storage or use of another table to encrypt keys for safe storage
+- [ ] Creating a pop-up page to give users chance to input their own keys as well as give users instructions for starting tool
