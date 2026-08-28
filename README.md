@@ -92,6 +92,7 @@ Timestamped overlay and progress markers
 
 I am currently working on the following features and improvements for the next update. You can track my immediate progress below:
 
+- [ ] Fix UI bug where claimsift icon button in youtube video renders twice, happens on refresh
 - [ ] Creating loading indicator during claim extraction
 - [ ] Creating Postgres database tables/schema for handling video facts
 - [ ] Integrating either Secret Key storage or use of another table to encrypt keys for safe storage
